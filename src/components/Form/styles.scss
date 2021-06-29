@@ -1,0 +1,79 @@
+fieldset {
+  width: 50rem;
+  padding: 1rem;
+
+  margin: 0.8rem;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: white;
+
+  legend {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .group-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+
+    label {
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+    }
+
+    input {
+      height: 3.2rem;
+      padding: 0 0.8rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  .group-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4.8rem 0;
+  }
+  
+  button {
+    width: 12.8rem;
+    height: 3.2rem;
+
+    border-radius: 8px;
+    border: none;
+
+    color: purple;
+    font-weight: bold;
+    
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: purple;
+      color: white;
+    }
+  }
+    
+  a {
+    font-size: 1.33rem;
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: color 0.2s;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
